@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:tenis_app/assets/background_colors.dart';
+import 'package:tenis_app/background_colors.dart';
 
 class Dashboard extends StatelessWidget {
   const Dashboard({super.key});
