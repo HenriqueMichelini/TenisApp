@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:tenis_app/pages/dashboard.dart';
 
 void main() {
   runApp(const MyApp());
@@ -9,9 +10,9 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return const MaterialApp(
       title: 'Flutter Demo',
-      home: mainPage,
+      home: Dashboard(),
     );
   }
 }
