@@ -46,8 +46,10 @@ class Dashboard extends StatelessWidget {
                 crossAxisAlignment: CrossAxisAlignment.center,
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
-                  Image.asset('../assets/images/app_logo.png',
-                      color: Colors.white),
+                  Image(
+                    image: AssetImage('assets/images/app_logo.png'),
+                    color: Colors.white,
+                  ),
                 ],
               )
             ],
