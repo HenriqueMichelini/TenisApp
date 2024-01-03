@@ -6,7 +6,6 @@ class Dashboard extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    // Widget variables for TennisApp Text and Sports Tennis Icon
     Widget tennisAppText = Container(
       margin: const EdgeInsets.only(right: 10),
       child: const Text(
@@ -38,8 +37,8 @@ class Dashboard extends StatelessWidget {
                 crossAxisAlignment: CrossAxisAlignment.center,
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
-                  tennisAppText, // Display TennisApp Text
-                  sportsTennisIcon, // Display Sports Tennis Icon
+                  tennisAppText,
+                  sportsTennisIcon,
                 ],
               ),
               //  App Logo & Profile infos
