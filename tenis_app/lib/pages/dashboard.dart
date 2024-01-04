@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:tenis_app/background_colors.dart';
 import 'package:tenis_app/components/text_component.dart';
+import 'package:tenis_app/components/option_buttons.dart';
 
 class Dashboard extends StatelessWidget {
   const Dashboard({super.key});
@@ -67,6 +68,55 @@ class Dashboard extends StatelessWidget {
                     ),
                   ],
                 ),
+              ),
+              Column(
+                children: [
+                  Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceAround,
+                    children: [
+                      OptionButtons(
+                        textData: "TORNEIO",
+                        icon: Icons.star,
+                        onTap: () {},
+                      ),
+                      OptionButtons(
+                        textData: "TORNEIO",
+                        icon: Icons.star,
+                        onTap: () {},
+                      ),
+                      OptionButtons(
+                        textData: "TORNEIO",
+                        icon: Icons.star,
+                        onTap: () {},
+                      ),
+                    ],
+                  ),
+                  Padding(
+                    padding: const EdgeInsets.only(
+                      top: 30,
+                    ), // Add some vertical space between the rows
+                    child: Row(
+                      mainAxisAlignment: MainAxisAlignment.spaceAround,
+                      children: [
+                        OptionButtons(
+                          textData: "TORNEIO",
+                          icon: Icons.star,
+                          onTap: () {},
+                        ),
+                        OptionButtons(
+                          textData: "TORNEIO",
+                          icon: Icons.star,
+                          onTap: () {},
+                        ),
+                        OptionButtons(
+                          textData: "TORNEIO",
+                          icon: Icons.star,
+                          onTap: () {},
+                        ),
+                      ],
+                    ),
+                  ),
+                ],
               ),
             ],
           ),
