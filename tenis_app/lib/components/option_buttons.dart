@@ -19,6 +19,7 @@ class OptionButtons extends StatelessWidget {
     return Column(
       children: [
         InkWell(
+          customBorder: const CircleBorder(),
           onTap: onTap,
           child: Container(
             width: 50.0,
